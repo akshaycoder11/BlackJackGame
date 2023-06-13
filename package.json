@@ -8,16 +8,8 @@
     "debug": "webpack",
     "launch": "webpack serve"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/test9687/test4-simplebaccarat.git"
-  },
   "author": "Akshay kumar",
   "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/test9687/test4-simplebaccarat/issues"
-  },
-  "homepage": "https://gitlab.com/test9687/test4-simplebaccarat#readme",
   "dependencies": {
     "copy-webpack-plugin": "^11.0.0",
     "html-webpack-plugin": "^5.5.0",
