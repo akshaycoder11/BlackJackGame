@@ -88,7 +88,7 @@
     "deckMtrBG": {
       "id": "deckMtrBG",
       "x": 950,
-      "y": 0,
+      "y": 50,
       "visible": true,
       "type": "image",
       "texture": "DeckSize",
@@ -99,7 +99,7 @@
     "deckSizeMeter": {
       "id": "deckSizeMeter",
       "x": 965,
-      "y": 15,
+      "y": 65,
       "visible": true,
       "type": "text",
       "text": "52",
