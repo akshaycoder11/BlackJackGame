@@ -31,7 +31,7 @@ export class BaseGameController {
         this.model = model;
         this.initialize();
         this.initializeChipsController();
-        this.initializeCardsController();           /* this class is used for controlling all classes */
+        this.initializeCardsController();           /* this class is used for controlling other classes */
         this.showAndHideChipBank();
         this.updateDealBtnVisibilty();
     }
@@ -60,6 +60,7 @@ export class BaseGameController {
         EventSystem.addEventListener(GameConstants.SHOW_WIN_PRESENTAION,this.showWinPresentaion,this);
     }
     protected showWinPresentaion(){
+          this.cardController.cardsManager.hitAndStandBtnContainer.visible = false;
         this.winpresentaionContainer.visible=true;
         if(this.cardController.cardsManager.isPlayerBust){
             this.playerBust.visible=true;
