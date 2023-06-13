@@ -1,0 +1,37 @@
+{"frames": {
+
+"queen_of_spades.png":
+{
+	"frame": {"x":0,"y":0,"w":500,"h":726},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":726},
+	"sourceSize": {"w":500,"h":726}
+},
+"queen_of_spades2.png":
+{
+	"frame": {"x":500,"y":0,"w":500,"h":726},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":726},
+	"sourceSize": {"w":500,"h":726}
+},
+"red_joker.png":
+{
+	"frame": {"x":1000,"y":0,"w":500,"h":726},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":726},
+	"sourceSize": {"w":500,"h":726}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "cards-8.png",
+	"format": "RGBA8888",
+	"size": {"w":1500,"h":726},
+	"scale": "1",
+	"related_multi_packs": [ "cards-0.json", "cards-1.json", "cards-2.json", "cards-3.json", "cards-4.json", "cards-5.json", "cards-6.json", "cards-7.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:b32b737ffc6cb4fa41535a0aa39e75f9:8b57091336a669e912e0785aafd6610b:62e8a5b6aaa209272164dc6139443179$"
+}
+}

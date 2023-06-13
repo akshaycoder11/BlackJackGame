@@ -1,0 +1,9 @@
+{
+  "chips": {
+    "1": "1_casino-chip.png",
+    "2": "2_casino-chip.png",
+    "5": "5_casino-chip.png",
+    "10": "10_casino-chip.png",
+    "25": "25_casino-chip.png"
+  }
+}

@@ -1,0 +1,119 @@
+{"frames": {
+
+"baccarat-table-layout.png":
+{
+	"frame": {"x":0,"y":0,"w":3872,"h":2224},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":3872,"h":2224},
+	"sourceSize": {"w":3872,"h":2224}
+},
+"bankHover.png":
+{
+	"frame": {"x":0,"y":2224,"w":425,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":425,"h":163},
+	"sourceSize": {"w":425,"h":163}
+},
+"1_casino-chip.png":
+{
+	"frame": {"x":425,"y":2224,"w":666,"h":666},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":666,"h":666},
+	"sourceSize": {"w":666,"h":666}
+},
+"2_casino-chip.png":
+{
+	"frame": {"x":1091,"y":2224,"w":666,"h":666},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":666,"h":666},
+	"sourceSize": {"w":666,"h":666}
+},
+"5_casino-chip.png":
+{
+	"frame": {"x":1757,"y":2224,"w":666,"h":666},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":666,"h":666},
+	"sourceSize": {"w":666,"h":666}
+},
+"10_casino-chip.png":
+{
+	"frame": {"x":2423,"y":2224,"w":666,"h":666},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":666,"h":666},
+	"sourceSize": {"w":666,"h":666}
+},
+"25_casino-chip.png":
+{
+	"frame": {"x":3089,"y":2224,"w":666,"h":666},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":666,"h":666},
+	"sourceSize": {"w":666,"h":666}
+},
+"100_casino-chip.png":
+{
+	"frame": {"x":0,"y":2890,"w":666,"h":666},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":666,"h":666},
+	"sourceSize": {"w":666,"h":666}
+},
+"500_casino-chip.png":
+{
+	"frame": {"x":666,"y":2890,"w":666,"h":666},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":666,"h":666},
+	"sourceSize": {"w":666,"h":666}
+},
+"1000_casino-chip.png":
+{
+	"frame": {"x":1332,"y":2890,"w":666,"h":666},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":666,"h":666},
+	"sourceSize": {"w":666,"h":666}
+},
+"5000_casino-chip.png":
+{
+	"frame": {"x":1998,"y":2890,"w":666,"h":666},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":666,"h":666},
+	"sourceSize": {"w":666,"h":666}
+},
+"playerHover.png":
+{
+	"frame": {"x":2664,"y":2890,"w":551,"h":189},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":551,"h":189},
+	"sourceSize": {"w":551,"h":189}
+},
+"tieHover.png":
+{
+	"frame": {"x":3215,"y":2890,"w":290,"h":137},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":290,"h":137},
+	"sourceSize": {"w":290,"h":137}
+}},
+"animations": {
+	"casino-chips_648765-308": ["casino-chips_648765-308-0.png","casino-chips_648765-308-1.png","casino-chips_648765-308-2.png","casino-chips_648765-308-3.png","casino-chips_648765-308-4.png","casino-chips_648765-308-5.png","casino-chips_648765-308-6.png","casino-chips_648765-308-7.png","casino-chips_648765-308-8.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "table.png",
+	"format": "RGBA8888",
+	"size": {"w":3872,"h":3556},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0e272cb8558d392a2476afd8bfddd830:11694c462dc4973e7552f3fec1bcbd56:c3c6639669eb4997b915932576a974fd$"
+}
+}

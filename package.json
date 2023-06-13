@@ -1,0 +1,38 @@
+{
+  "name": "blackjack",
+  "version": "1.0.0",
+  "description": "Exam #4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "webpack",
+    "launch": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/test9687/test4-simplebaccarat.git"
+  },
+  "author": "Akshay kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/test9687/test4-simplebaccarat/issues"
+  },
+  "homepage": "https://gitlab.com/test9687/test4-simplebaccarat#readme",
+  "dependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "http-server": "^14.1.1",
+    "pixi.js": "^7.1.1",
+    "ts-loader": "^9.4.2",
+    "tweedle.js": "^2.1.0",
+    "typescript": "^4.9.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "devDependencies": {
+    "merge-jsons-webpack-plugin": "^2.0.1",
+    "netlify-cli": "^15.4.2",
+    "pixi-tween": "^0.2.0"
+  }
+}
