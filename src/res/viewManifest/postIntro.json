@@ -1,0 +1,46 @@
+{
+  "PostIntro": {
+    "PostIntroContainer": {
+        "id": "PostIntroContainer",
+        "x": 0,
+        "y": 0,
+        "visible": true,
+        "type": "container",
+        "parent": ""
+      },
+      "PostIntroBG": {
+        "id": "PostIntroBG",
+        "x": 0,
+        "y": 0,
+        "visible": true,
+        "type": "image",
+        "texture": "BlackJackIntro",
+        "scaleX": 1.07,
+        "scaleY": 1.17,
+        "parent": "PostIntroContainer"
+      },
+      "PostIntroButton": {
+        "id": "PostIntroButton",
+        "x": 538,
+        "y": 658.5,
+        "visible": true,
+        "scaleX":1,
+        "scaleY":1,
+        "type": "button",
+        "frames": {
+          "up": "PlayButtonNormal",
+          "down": "PlayButtonNormal",
+          "over": "PlayButtonHover",
+          "out": "PlayButtonNormal"
+        },
+        "hitArea": {
+          "visible": false,
+          "x": 0,
+          "y": 0,
+          "w": 210,
+          "h": 85
+        },
+        "parent": "PostIntroContainer"
+      }
+    }
+}

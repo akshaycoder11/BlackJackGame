@@ -1,0 +1,29 @@
+{
+  "loading": {
+    "PlayButtonHover": "res/images/PlayButtonHover.png",
+    "PlayButtonNormal": "res/images/PlayButtonNormal.png",
+    "BlackJackIntro": "res/images/BlackJackIntro.png",
+    "loading": "res/viewManifest/combine.json"
+  },
+  "baseGame": {
+    "gameBG": "res/images/GameBg.png",
+    "cards-data": "res/images/cards-0.json",
+    "tableLayout": "res/images/table.json",
+    "ChipsBG": "res/images/ChipsBG.png",
+    "MtrBlurBg": "res/images/MtrBlurBg.png",
+    "DealButtonHover": "res/images/DealButtonHover.png",
+    "DealButtonNormal": "res/images/DealButtonNormal.png",
+    "HitNormal": "res/images/HitNormal.png",
+    "HitHover": "res/images/HitHover.png",
+    "cardFront": "res/images/cardFront.png",
+    "Bust": "res/images/Bust.png",
+    "DealerWin": "res/images/DealerWin.png",
+    "PlayerWin": "res/images/PlayerWin.png",
+    "shape": "res/images/shape.png",
+    "StandHover": "res/images/StandHover.png",
+    "StandNormal": "res/images/StandNormal.png",
+    "PlayerMtrBG": "res/images/PlayerMtrBG.png",
+    "DealerMtrBG": "res/images/DealerMtrBG.png"
+  }
+  
+}

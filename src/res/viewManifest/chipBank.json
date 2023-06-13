@@ -1,0 +1,153 @@
+{
+    "BaseGame": {
+        "chipBankContainer": {
+            "id": "chipBankContainer",
+            "x": 0,
+            "y": 205,
+            "visible": true,
+            "type": "container",
+            "parent": "mainContainer"
+          },
+          "chipBankBG": {
+            "id": "chipBankBG",
+            "x": -5,
+            "y": 450,
+            "visible": true,
+            "type": "image",
+            "texture": "ChipsBG",
+            "scaleX": 1,
+            "scaleY": 1,
+            "parent": "chipBankContainer"
+          },
+          "totalBankBalanceMeter": {
+            "id": "totalBankBalanceMeter",
+            "x": 110,
+            "y": 480,
+            "visible": true,
+            "type": "text",
+            "text": "$1000",
+            "style": {
+              "fontFamily": "Arial",
+              "fontSize": 33,
+              "fill": "#FFFFFF",
+              "align": "left"
+            },
+            "parent": "chipBankContainer"
+          },
+          "ChipBtn_1": {
+            "id": "ChipBtn_1",
+            "x": -5,
+            "y": 570,
+            "visible": true,
+            "type": "button",
+            "frames": {
+              "up": "1_casino-chip.png",
+              "down": "1_casino-chip.png",
+              "over": "1_casino-chip.png",
+              "out": "1_casino-chip.png"
+            },
+            "scaleX":0.2,
+            "scaleY":0.2,
+            "hitArea": {
+              "visible": false,
+              "x": 95,
+              "y": 95,
+              "w": 530,
+              "h": 530
+            },
+            "parent": "chipBankContainer"
+          },
+          "ChipBtn_2": {
+            "id": "ChipBtn_2",
+            "x": 135,
+            "y": 570,
+            "visible": true,
+            "type": "button",
+            "frames": {
+              "up": "2_casino-chip.png",
+              "down": "2_casino-chip.png",
+              "over": "2_casino-chip.png",
+              "out": "2_casino-chip.png"
+            },
+            "scaleX":0.2,
+            "scaleY":0.2,
+            "hitArea": {
+              "visible": false,
+              "x": 95,
+              "y": 95,
+              "w": 530,
+              "h": 530
+            },
+            "parent": "chipBankContainer"
+          },
+          "ChipBtn_5": {
+            "id": "ChipBtn_5",
+            "x": 275,
+            "y": 570,
+            "visible": true,
+            "type": "button",
+            "frames": {
+              "up": "5_casino-chip.png",
+              "down": "5_casino-chip.png",
+              "over": "5_casino-chip.png",
+              "out": "5_casino-chip.png"
+            },
+            "scaleX":0.2,
+            "scaleY":0.2,
+            "hitArea": {
+              "visible": false,
+              "x": 95,
+              "y": 95,
+              "w": 530,
+              "h": 530
+            },
+            "parent": "chipBankContainer"
+          },
+          "ChipBtn_10": {
+            "id": "ChipBtn_10",
+            "x": 405,
+            "y": 570,
+            "visible": true,
+            "type": "button",
+            "frames": {
+              "up": "10_casino-chip.png",
+              "down": "10_casino-chip.png",
+              "over": "10_casino-chip.png",
+              "out": "10_casino-chip.png"
+            },
+            "scaleX":0.2,
+            "scaleY":0.2,
+            "hitArea": {
+              "visible": false,
+              "x": 95,
+              "y": 95,
+              "w": 530,
+              "h": 530
+            },
+            "parent": "chipBankContainer"
+          },
+          "ChipBtn_25": {
+            "id": "ChipBtn_25",
+            "x": 545,
+            "y": 570,
+            "visible": true,
+            "type": "button",
+            "frames": {
+              "up": "25_casino-chip.png",
+              "down": "25_casino-chip.png",
+              "over": "25_casino-chip.png",
+              "out": "25_casino-chip.png"
+            },
+            "scaleX":0.2,
+            "scaleY":0.2,
+            "hitArea": {
+              "visible": false,
+              "x": 95,
+              "y": 95,
+              "w": 530,
+              "h": 530
+            },
+            "parent": "chipBankContainer"
+          }
+    }
+}

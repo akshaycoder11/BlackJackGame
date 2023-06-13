@@ -1,0 +1,207 @@
+{
+  "BaseGame": {
+    "MainContainer": {
+      "id": "mainContainer",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "type": "container",
+      "parent": ""
+    },
+    "table": {
+      "id": "table",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "type": "image",
+      "texture": "gameBG",
+      "scaleX": 1,
+      "scaleY": 1,
+      "parent": "mainContainer"
+    },
+    "PlaceDealBtn": {
+      "id": "PlaceDealBtn",
+      "x": 1000,
+      "y": 350,
+      "visible": true,
+      "scaleX":1,
+      "scaleY":1,
+      "type": "button",
+      "frames": {
+        "up": "DealButtonNormal",
+        "down": "DealButtonNormal",
+        "over": "DealButtonHover",
+        "out": "DealButtonNormal"
+      },
+      "hitArea": {
+        "visible": false,
+        "x": 0,
+        "y": 0,
+        "w": 168,
+        "h": 111
+      },
+      "parent": "mainContainer"
+    },
+    "placingBetContainer": {
+      "id": "placingBetContainer",
+      "x": 500,
+      "y": 350,
+      "visible": true,
+      "type": "container",
+      "parent": "mainContainer"
+    },
+    "betMtrContainer": {
+      "id": "betMtrContainer",
+      "x": 650,
+      "y": 370,
+      "visible": false,
+      "type": "container",
+      "parent": "mainContainer"
+    },
+    "betMtrBG": {
+      "id": "betMtrBG",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "type": "image",
+      "texture": "MtrBlurBg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "parent": "betMtrContainer"
+    },
+    "totalBetMeter": {
+      "id": "totalBetMeter",
+      "x": 28,
+      "y": 28,
+      "visible": true,
+      "type": "text",
+      "text": "$1000",
+      "style": {
+        "fontFamily": "Arial",
+        "fontSize": 33,
+        "fill": "#FFFFFF",
+        "align": "center"
+      },
+      "parent": "betMtrContainer"
+    },
+    "hitAndStandBtnContainer": {
+      "id": "hitAndStandBtnContainer",
+      "x": 0,
+      "y": 0,
+      "visible": false,
+      "type": "container",
+      "parent": "mainContainer"
+    },
+    "playerAndDealerMtrContainer": {
+      "id": "playerAndDealerMtrContainer",
+      "x": 0,
+      "y": 0,
+      "visible": false,
+      "type": "container",
+      "parent": "mainContainer"
+    },
+    "cardsContainer": {
+      "id": "cardsContainer",
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "type": "container",
+      "parent": "mainContainer"
+    },
+    "hitButton": {
+      "id": "hitButton",
+      "x": 150,
+      "y": 380,
+      "visible": true,
+      "type": "button",
+      "frames": {
+        "up": "HitNormal",
+        "down": "HitNormal",
+        "over": "HitHover",
+        "out": "HitNormal"
+      },
+      "hitArea": {
+        "visible": false,
+        "x": 0,
+        "y": 0,
+        "w": 204,
+        "h": 93
+      },
+      "parent": "hitAndStandBtnContainer"
+    },
+    "standButton": {
+      "id": "standButton",
+      "x": 900,
+      "y": 380,
+      "visible": true,
+      "type": "button",
+      "frames": {
+        "up": "StandNormal",
+        "down": "StandNormal",
+        "over": "StandHover",
+        "out": "StandNormal"
+      },
+      "hitArea": {
+        "visible": false,
+        "x": 0,
+        "y": 0,
+        "w": 204,
+        "h": 93
+      },
+      "parent": "hitAndStandBtnContainer"
+    },
+    "playerMtrBG": {
+      "id": "playerMtrBG",
+      "x": 860,
+      "y": 550,
+      "visible": true,
+      "type": "image",
+      "texture": "PlayerMtrBG",
+      "scaleX": 1,
+      "scaleY": 1,
+      "parent": "playerAndDealerMtrContainer"
+    },
+    "playerMeter": {
+      "id": "playerMeter",
+      "x": 885,
+      "y": 580,
+      "visible": true,
+      "type": "text",
+      "text": "$1000",
+      "style": {
+        "fontFamily": "Arial",
+        "fontSize": 33,
+        "fill": "#FFFFFF",
+        "align": "center"
+      },
+      "parent": "playerAndDealerMtrContainer"
+    },
+    "dealerMtrBG": {
+      "id": "dealerMtrBG",
+      "x": 860,
+      "y": 200,
+      "visible": true,
+      "type": "image",
+      "texture": "DealerMtrBG",
+      "scaleX": 1,
+      "scaleY": 1,
+      "parent": "playerAndDealerMtrContainer"
+    },
+    "dealerMeter": {
+      "id": "dealerMeter",
+      "x": 885,
+      "y": 230,
+      "visible": true,
+      "type": "text",
+      "text": "$1000",
+      "style": {
+        "fontFamily": "Arial",
+        "fontSize": 33,
+        "fill": "#FFFFFF",
+        "align": "center"
+      },
+      "parent": "playerAndDealerMtrContainer"
+    }
+    
+  }
+}

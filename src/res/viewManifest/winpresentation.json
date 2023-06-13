@@ -1,0 +1,56 @@
+{
+    "BaseGame":{
+        "winPresentaionContainer": {
+            "id": "winPresentaionContainer",
+            "x": 0,
+            "y": 0,
+            "visible": false,
+            "type": "container",
+            "parent": "mainContainer"
+          },
+          "playerWin": {
+            "id": "playerWin",
+            "x": 400,
+            "y": 580,
+            "visible": false,
+            "type": "image",
+            "texture": "PlayerWin",
+            "scaleX": 1,
+            "scaleY": 1,
+            "parent": "winPresentaionContainer"
+          },
+          "playerBust": {
+            "id": "playerBust",
+            "x": 400,
+            "y": 630,
+            "visible": false,
+            "type": "image",
+            "texture": "Bust",
+            "scaleX": 1,
+            "scaleY": 1,
+            "parent": "winPresentaionContainer"
+          },
+          "dealerWin": {
+            "id": "dealerWin",
+            "x": 400,
+            "y": 100,
+            "visible": false,
+            "type": "image",
+            "texture": "DealerWin",
+            "scaleX": 1,
+            "scaleY": 1,
+            "parent": "winPresentaionContainer"
+          },
+          "dealerBust": {
+            "id": "dealerBust",
+            "x": 400,
+            "y": 150,
+            "visible": false,
+            "type": "image",
+            "texture": "Bust",
+            "scaleX": 1,
+            "scaleY": 1,
+            "parent": "winPresentaionContainer"
+          }
+    }
+}
