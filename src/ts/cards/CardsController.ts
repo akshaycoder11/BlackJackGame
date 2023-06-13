@@ -56,6 +56,7 @@ export class CardsController {
     }
     protected onStandBtnPressup() {
         this.cardsManager.isPlayerDone = true;
+          this.cardsManager.hitAndStandBtnContainer.visible = false;
         this.cardsManager.flipDealerFirstCard();
 
     }
