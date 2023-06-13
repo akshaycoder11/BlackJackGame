@@ -73,6 +73,7 @@ export class CardsManager {
         };
         flipcardTween = GameTween.addTween(this.flipCard, tweenData_flipcard, () => {
         });
+        MyGame.baseGameModel.fakeCardShownToUser=1;
         this.dealerLastCardX -= this.cardgap;
         const card_b: Card = this.cardFactory.getRandomCard();
         this.dealerCards.push(card_b);
@@ -93,6 +94,7 @@ export class CardsManager {
     }
     public flipDealerFirstCard() {
         var flipcardTween: Tween<DisplayObject>;
+        MyGame.baseGameModel.fakeCardShownToUser=0;
         const tweenData_flipcard: TweenData = {
             properties: { x: this.dealerLastCardX + this.cardgap, y: 60 },
             duration: 300,

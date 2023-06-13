@@ -8,7 +8,7 @@ import { GameConstants } from "../lib/GameConstants";
 import { Button } from "../lib/views/ui/Button";
 
 export class CardsController {
-    protected cardFactory!: CardFactory;
+    public cardFactory!: CardFactory;
     public cardsManager!: CardsManager;
     protected dealerMtr!: Text;
     protected playerMtr!: Text;

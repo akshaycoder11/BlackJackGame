@@ -84,6 +84,33 @@
       },
       "parent": "betMtrContainer"
     },
+
+    "deckMtrBG": {
+      "id": "deckMtrBG",
+      "x": 950,
+      "y": 0,
+      "visible": true,
+      "type": "image",
+      "texture": "DeckSize",
+      "scaleX": 1,
+      "scaleY": 1,
+      "parent": "mainContainer"
+    },
+    "deckSizeMeter": {
+      "id": "deckSizeMeter",
+      "x": 965,
+      "y": 15,
+      "visible": true,
+      "type": "text",
+      "text": "52",
+      "style": {
+        "fontFamily": "Arial",
+        "fontSize": 33,
+        "fill": "#FFFFFF",
+        "align": "center"
+      },
+      "parent": "mainContainer"
+    },
     "hitAndStandBtnContainer": {
       "id": "hitAndStandBtnContainer",
       "x": 0,

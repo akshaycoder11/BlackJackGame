@@ -51,6 +51,17 @@
             "scaleX": 1,
             "scaleY": 1,
             "parent": "winPresentaionContainer"
+          },
+          "shuffle": {
+            "id": "shuffle",
+            "x": 400,
+            "y": 300,
+            "visible": false,
+            "type": "image",
+            "texture": "Shuffle",
+            "scaleX": 1,
+            "scaleY": 1,
+            "parent": "winPresentaionContainer"
           }
     }
 }
